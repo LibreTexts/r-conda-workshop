@@ -1,6 +1,17 @@
 channels:
   - conda-forge
+  - bioconda
 dependencies:
-  - r-base=3.6
+  - r-base=4.0
   - r-tidyverse
-  
+  - r-seurat
+  - r-knitr
+  - r-kableextra
+  - r-ggplot2
+  - r-dplyr
+  - r-wgcna
+  - r-cowplot
+  - bioconductor-limma
+  - bioconductor-savr
+  - bioconductor-topgo
+  - bioconductor-monocle
