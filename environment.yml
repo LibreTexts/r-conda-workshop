@@ -1,6 +1,7 @@
 channels:
   - conda-forge
   - bioconda
+  - r
 dependencies:
   - r-base=4.0
   - r-irkernel
@@ -18,6 +19,7 @@ dependencies:
   - bioconductor-savr
   - bioconductor-topgo
   - bioconductor-monocle
+  - rstudio
   - pip
   - pip:
     - cellphonedb
