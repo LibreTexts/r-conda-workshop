@@ -3,6 +3,8 @@ channels:
   - bioconda
 dependencies:
   - r-base=4.0
+  - r-irkernel
+  - jupyter-server-proxy
   - r-tidyverse
   - r-seurat
   - r-knitr
@@ -11,6 +13,7 @@ dependencies:
   - r-dplyr
   - r-wgcna
   - r-cowplot
+  - r-rstudioapi
   - bioconductor-limma
   - bioconductor-savr
   - bioconductor-topgo
