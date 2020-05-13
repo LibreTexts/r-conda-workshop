@@ -15,3 +15,6 @@ dependencies:
   - bioconductor-savr
   - bioconductor-topgo
   - bioconductor-monocle
+  - pip
+  - pip:
+    - cellphonedb
