@@ -6,6 +6,9 @@ dependencies:
   - jupyterlab=1.2.10
   - jupyter-rsession-proxy
   - jupyter-server-proxy
+  - jupyterlab_server=1.1.1
+  - widgetsnbextension=3.5.1
+  - ipykernel=5.2.0
   - r-irkernel
   - r-tidyverse
   - r-seurat
