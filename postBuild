@@ -7,9 +7,7 @@ jupyter lab build --dev-build=False && \
 npm cache clean --force && \
 rm -rf $CONDA_DIR/share/jupyter/lab/staging && \
 rm -rf /home/$NB_USER/.cache/yarn && \
-rm -rf /home/$NB_USER/.node-gyp && \
-fix-permissions $CONDA_DIR && \
-fix-permissions /home/$NB_USER
+rm -rf /home/$NB_USER/.node-gyp
 
 apt-get update && \
 curl --silent -L --fail https://download2.rstudio.org/rstudio-server-1.1.419-amd64.deb > /tmp/rstudio.deb && \
